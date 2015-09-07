@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, 'Open Sans', 'Lucida Grande', 'Segoe UI', 'Source Han Sans', 'Source Han Sans CN', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'WenQuanYi Micro Hei', sans-serif;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+h1 {
+  text-align: center;
+  font-weight: 400;
+}
+h2 {
+  font-weight: 300;
+  border-bottom: 1px solid #ddd;
+}
+p {
+  font-size: 15px;
+  margin: 0 0 .5em;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+label input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid #999;
+}
+input[type=submit] {
+  -webkit-appearance: none;
+  color: rgba(255,255,255,0.87);
+  background-color: #106CC8;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  outline: 0;
+  border: 0;
+  display: inline-block;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 6px;
+  margin: 6px 0;
+  line-height: 36px;
+  min-height: 36px;
+  white-space: nowrap;
+  min-width: 88px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: inherit;
+  font-variant: inherit;
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: box-shadow .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1);
+}
+input[type=submit]:hover {
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,.5);
+}
+input[type=submit]:active {
+  background-color: #0F5AAE;
+}
+a.link {
+  color: #106CC8;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+p.bold {
+  font-weight: 600;
+}
+
+#email-container {
+  text-align: center;
+  background-color: #ddd;
+}
+#navigation-bar {
+  position: fixed;
+  width: 100%;
+  padding: 10px 10px 0 10px;
+  background-color: #F7F7F7;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 0 2px #bbb;
+  overflow: hidden;
+}
+#email-body {
+  padding: 50px 20px;
+  display: inline-block;
+  max-width: 620px;
+  text-align: justify;
+  background-color: #fff;
+  box-shadow: 0 0 2px #bbb;
+}
+#navigation-inner-container {
+  max-width: 600px;
+  margin: auto;
+}
+#navigation-bar .float-right {
+  margin: 0;
+  color: #999;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 30px;
+}
+#footer {
+  padding: 10px 0;
+  margin-top: 20px;
+  color: #929292;
+  font-size: 13px;
+  border-top: 1px solid #ccc;
+}
