@@ -23,6 +23,7 @@ h1 {
   font-weight: 400;
 }
 h2 {
+  margin-top: 1.5em;
   font-weight: 300;
   border-bottom: 1px solid #ddd;
 }
@@ -106,13 +107,13 @@ p.bold {
 #email-body {
   padding: 50px 20px;
   display: inline-block;
-  max-width: 620px;
+  max-width: 660px;
   text-align: justify;
   background-color: #fff;
   box-shadow: 0 0 2px #bbb;
 }
 #navigation-inner-container {
-  max-width: 600px;
+  max-width: 640px;
   margin: auto;
 }
 #navigation-bar .float-right {
