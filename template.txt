@@ -105,6 +105,13 @@ p.bold {
   box-shadow: 0 0 2px #bbb;
   overflow: hidden;
 }
+#logo {
+  width: 140px;
+  height: 23px;
+  background-size: 140px;
+  background-position: left top;
+  background-image: url(http://stu.fudan.edu.cn/v7/image/logo_sprites.png);
+}
 #email-body {
   padding: 50px 20px;
   display: inline-block;
@@ -139,7 +146,7 @@ p.bold {
     <div id="navigation-bar">
       <div id="navigation-inner-container">
         <div class="float-left">
-          <a href="http://stu.fudan.edu.cn/"><img id="logo" src="[填入上传图片地址]"></a>
+          <a href="http://stu.fudan.edu.cn/"><div id="logo"></div></a>
         </div>
         <div class="float-right">We should be building great things that don't exist.</div>
       </div>
